@@ -22,7 +22,7 @@ const SkillsSection = () => {
     {
       title: 'Backend Development',
       icon: <Database className="h-8 w-8" />,
-      skills: ['Node.js', 'Express', 'Python', 'JavaScript', 'MongoDB'],
+      skills: ['Node.js', 'Express', 'Python', 'JavaScript', 'MongoDB', 'Firebase'],
       color: 'tech-secondary'
     },
     {

@@ -50,16 +50,19 @@ const HeroSection = () => {
             <Button size="lg" className="tech-glow">
               View My Work
             </Button>
-            <Button variant="outline" size="lg">
+            {/* <Button variant="outline" size="lg">
               Download Resume
-            </Button>
+            </Button> */}
+            <a href='/resume.pdf' download="Siddharth_Singh_Resume.pdf" className="inline-flex items-center justify-center px-6 py-3 h-11 bg-black border border-input text-foreground rounded-md text-sm font-bold hover:bg-accent transition-colors">
+                Download Resume
+            </a>
           </div>
           
           <div className="flex justify-center space-x-6">
             <a href="https://github.com/Ego-TheCelestial" className="text-muted-foreground hover:text-primary transition-colors duration-200">
               <Github className="h-6 w-6" />
             </a>
-            <a href="https://linkedin.com/in/siddharth-singh-729227324" className="text-muted-foreground hover:text-primary transition-colors duration-200">
+            <a href="https://www.linkedin.com/in/siddharthsingh-dev/" className="text-muted-foreground hover:text-primary transition-colors duration-200">
               <Linkedin className="h-6 w-6" />
             </a>
             <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors duration-200">
